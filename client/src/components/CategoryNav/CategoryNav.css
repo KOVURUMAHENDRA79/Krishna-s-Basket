@@ -1,0 +1,84 @@
+.category-nav {
+  display: flex;
+  justify-content: center; /* Changed from flex-start to center! */
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;
+  overflow-x: auto;
+  border-bottom: 1px solid #f1f5f9;
+  scrollbar-width: none;
+}
+
+.category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.4rem;
+  /* Added a professional 'spring/bounce' curve to the lift animation! */
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.3s ease;
+  color: #334155;
+  min-width: 65px;
+  text-decoration: none;
+}
+
+/* Lifts the entire category item smoothly */
+.category-item:hover {
+  transform: translateY(-6px);
+  color: var(--primary-accent);
+}
+
+.category-icon {
+  width: 55px;
+  height: 55px;
+  background: #f8f9fa;
+  /* Base color is light grey */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* REQUIRED for the sweeping animation to anchor correctly */
+  overflow: hidden;
+  /* VERY IMPORTANT: This chops off the sweeping color so it doesn't leak out of the circle! */
+}
+
+/* THE MAGIC: We create a physical color block sitting completely invisible on the left boundary */
+.category-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  /* Starts at 0 width (invisible) */
+  height: 100%;
+  background: #e0e7ff;
+  /* The Indigo hover color */
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Controls the slow left-to-right sweep speed */
+  z-index: 1;
+  /* Forces the color block underneath the SVG image */
+}
+
+/* When you hover the item, the color block wildly expands to 100% width! */
+.category-item:hover .category-icon::before {
+  width: 100%;
+}
+
+/* Forces the SVG image to stay visible ON TOP of the animating color block */
+.category-icon svg {
+  position: relative;
+  z-index: 2;
+}
+
+.category-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}

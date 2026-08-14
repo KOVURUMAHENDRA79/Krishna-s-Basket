@@ -1,0 +1,83 @@
+.hero-section {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.hero-scroll-container {
+  display: flex;
+  overflow-x: auto; /* Look! This enables horizontal scrolling */
+  scroll-snap-type: x mandatory; /* The magic CSS that forces it to 'SNAP' cleanly to images */
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  
+  /* Hides the ugly native scrollbar but keeps the scrolling functionality */
+  scrollbar-width: none; 
+}
+.hero-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-slide {
+  /* flex: 0 0 85% means each slide only takes up 85% of the screen. 
+     This smartly lets the user see the next image peeking out on the right! */
+  flex: 0 0 85%;
+  height: 400px;
+  position: relative;
+  scroll-snap-align: center; /* Makes sure the slide snaps to the center of your screen when swiping */
+  border-radius: 24px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* This creates a darkness that starts at the bottom and fades upwards */
+.hero-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0) 60%);
+  z-index: 1;
+}
+
+/* Pushes the text to the bottom left */
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 3rem;
+  z-index: 2; /* Very important: Keeps text on top of the dark overlay */
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem; /* Huge impact text */
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  background: white;
+  color: var(--text-primary);
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05); /* Micro-animation: Button slightly puffs up */
+  background: #f8f9fa;
+}

@@ -1,0 +1,28 @@
+# =====================
+# Root-level ignores
+# =====================
+
+# SQLite database at project root
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+logs/
+*.log

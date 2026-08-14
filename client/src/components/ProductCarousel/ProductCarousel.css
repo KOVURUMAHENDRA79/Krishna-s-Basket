@@ -1,0 +1,246 @@
+/* Main Section Container */
+.product-carousel-section {
+  padding: 1.5rem 2rem 3rem 2rem;
+  background-color: transparent; /* Seamlessly blends into the background */
+}
+
+/* Header (Title & 'View All' link) */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* This nicely pushes 'View All' down to rest on the same baseline as the big Title text */
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+.view-all-link {
+  color: var(--primary-accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: opacity 0.2s;
+}
+
+.view-all-link:hover {
+  opacity: 0.7;
+}
+
+/* The Horizontal Scrolling Track */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding-bottom: 2rem; /* Creates space so the shadow from cards doesn't get chopped off */
+  scroll-snap-type: x mandatory;
+  
+  /* Creates a sleek custom scrollbar horizontally */
+  scrollbar-width: thin; 
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.carousel-container::-webkit-scrollbar {
+  height: 6px;
+}
+.carousel-container::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 10px;
+}
+
+/* === THE PRODUCT CARD ITEM === */
+.product-card {
+  flex: 0 0 250px; /* Forces every card to be exactly 250px wide permanently */
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start; /* Causes swiping to snap to the start of a card */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-8px); /* The whole card floats up when hovered! */
+}
+
+/* The whole card is now a clickable link to the product details page */
+.product-card-link {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Image Box */
+.product-image-container {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: white; /* Clean background for product shots */
+  border-radius: 16px; /* Smooth squircle corners */
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03); /* Extremely soft shadow */
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Automatically stretches and crops the image mathematically to fill the box */
+  transition: transform 0.5s ease;
+}
+
+/* When the user touches the card, zoom the image inside the box by 8% */
+.product-card:hover .product-image {
+  transform: scale(1.08); 
+}
+
+/* ==== THE MAGIC ADD-TO-CART BUTTON ==== */
+.add-to-cart-btn {
+  position: absolute;
+  /* We hide the button by pushing it into the bottom negative space (-60px) */
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%); /* CSS trick to perfectly center a floating object */
+  background: white;
+  color: var(--text-primary);
+  border: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy animation curve! */
+}
+
+/* When the card is hovered, the hidden button springs up into view! */
+.product-card:hover .add-to-cart-btn {
+  bottom: 20px;
+}
+
+.add-to-cart-btn:hover {
+  background: var(--primary-accent);
+  color: white;
+  transform: translateX(-50%) scale(1.05); /* Expands slightly when touched */
+}
+
+/* === CARD TEXT DETAILS === */
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 0 0.5rem; /* Keeps text away from the absolute edges */
+}
+
+.product-title {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  /* ADVANCED TRICK: This force-cuts the text with '...' if it is longer than 2 lines! */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.stars {
+  color: #fbbf24; /* Amazon Gold Color */
+  letter-spacing: 1px;
+}
+
+.review-count {
+  color: #94a3b8;
+}
+
+/* Arranges the pricing elements horizontally */
+.product-price-row {
+  display: flex;
+  align-items: baseline; /* Forces texts of different sizes to sit on the same invisible bottom line */
+  gap: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.current-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.original-price {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  text-decoration: line-through; /* Puts a horizontal strike through the old price */
+}
+
+.discount-tag {
+  font-size: 0.75rem;
+  background: #dcfce7; /* Fresh green background */
+  color: #166534; /* Dark readable green text */
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* === SKELETON LOADING PLACEHOLDERS === */
+.skeleton {
+  background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton-image {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.product-card .skeleton-line {
+  width: 100%;
+  height: 1rem;
+  margin-top: 0.4rem;
+}
+
+.product-card .skeleton-line.short {
+  width: 60%;
+}
+
+.product-card .skeleton-line.price {
+  width: 40%;
+  height: 1.3rem;
+  margin-top: 0.8rem;
+}
+
+/* === CAROUSEL MESSAGE (error / empty state) === */
+.carousel-message {
+  padding: 3rem 0;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 1rem;
+}

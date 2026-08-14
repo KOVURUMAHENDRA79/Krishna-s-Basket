@@ -1,0 +1,172 @@
+.login-dialog-open {
+  overflow: hidden;
+}
+
+.login-dialog-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background: rgba(17, 24, 39, 0.58);
+}
+
+.login-dialog {
+  position: relative;
+  width: min(100%, 430px);
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--text-primary);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.24);
+  padding: 2rem;
+}
+
+.login-dialog-close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #374151;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+
+.login-dialog-close:hover {
+  background: #f9fafb;
+  border-color: #9ca3af;
+  color: #111827;
+}
+
+.login-dialog-copy {
+  padding-right: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-dialog-kicker {
+  color: #1f7a5c;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.login-dialog-copy h2 {
+  font-size: 1.75rem;
+  line-height: 1.15;
+  letter-spacing: 0;
+  margin-bottom: 0.5rem;
+}
+
+.login-dialog-copy p {
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.login-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.login-field {
+  display: grid;
+  gap: 0.45rem;
+  color: #374151;
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.login-field input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+  font: inherit;
+  font-weight: 500;
+  padding: 0.78rem 0.9rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-field input:focus {
+  border-color: #1f7a5c;
+  box-shadow: 0 0 0 3px rgba(31, 122, 92, 0.16);
+}
+
+.login-dialog-status {
+  color: #b42318;
+  background: #fff1f0;
+  border: 1px solid #ffdad6;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.45;
+  padding: 0.75rem 0.85rem;
+}
+
+.login-submit-btn,
+.login-mode-btn {
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.login-submit-btn {
+  min-height: 48px;
+  border: none;
+  background: #1f7a5c;
+  color: #ffffff;
+  padding: 0.8rem 1rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.login-submit-btn:hover:not(:disabled) {
+  background: #176349;
+  transform: translateY(-1px);
+}
+
+.login-submit-btn:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.login-mode-btn {
+  width: 100%;
+  margin-top: 1rem;
+  border: 1px solid #dbe4ff;
+  background: #f7f8ff;
+  color: var(--primary-accent);
+  padding: 0.78rem;
+}
+
+.login-mode-btn:hover {
+  background: #eef2ff;
+}
+
+@media (max-width: 520px) {
+  .login-dialog-backdrop {
+    align-items: flex-end;
+    padding: 0.75rem;
+  }
+
+  .login-dialog {
+    padding: 1.35rem;
+  }
+
+  .login-dialog-copy h2 {
+    font-size: 1.45rem;
+  }
+}

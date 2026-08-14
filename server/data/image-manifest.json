@@ -1,0 +1,1028 @@
+[
+  {
+    "name": "Samsung Galaxy S24 5G",
+    "slug": "samsung-galaxy-s24-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "samsung-galaxy-s24-5g.webp",
+    "frontend_path": "/products/mobiles/samsung-galaxy-s24-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Apple iPhone 15",
+    "slug": "apple-iphone-15",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "apple-iphone-15.webp",
+    "frontend_path": "/products/mobiles/apple-iphone-15.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "OnePlus 12",
+    "slug": "oneplus-12",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "oneplus-12.webp",
+    "frontend_path": "/products/mobiles/oneplus-12.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Xiaomi 14",
+    "slug": "xiaomi-14",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "xiaomi-14.webp",
+    "frontend_path": "/products/mobiles/xiaomi-14.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Realme GT 6",
+    "slug": "realme-gt-6",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "realme-gt-6.webp",
+    "frontend_path": "/products/mobiles/realme-gt-6.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Vivo V30 Pro 5G",
+    "slug": "vivo-v30-pro-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "vivo-v30-pro-5g.webp",
+    "frontend_path": "/products/mobiles/vivo-v30-pro-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Google Pixel 8a",
+    "slug": "google-pixel-8a",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "google-pixel-8a.webp",
+    "frontend_path": "/products/mobiles/google-pixel-8a.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Motorola Edge 50 Pro",
+    "slug": "motorola-edge-50-pro",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "motorola-edge-50-pro.webp",
+    "frontend_path": "/products/mobiles/motorola-edge-50-pro.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Samsung Galaxy A55 5G",
+    "slug": "samsung-galaxy-a55-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "samsung-galaxy-a55-5g.webp",
+    "frontend_path": "/products/mobiles/samsung-galaxy-a55-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Redmi Note 13 Pro+ 5G",
+    "slug": "redmi-note-13-pro-plus-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "redmi-note-13-pro-plus-5g.webp",
+    "frontend_path": "/products/mobiles/redmi-note-13-pro-plus-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "OPPO Reno 11 Pro 5G",
+    "slug": "oppo-reno-11-pro-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "oppo-reno-11-pro-5g.webp",
+    "frontend_path": "/products/mobiles/oppo-reno-11-pro-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Nokia G42 5G",
+    "slug": "nokia-g42-5g",
+    "category": "mobiles",
+    "subcategory": "Smartphones",
+    "filename": "nokia-g42-5g.webp",
+    "frontend_path": "/products/mobiles/nokia-g42-5g.webp",
+    "image_description": "modern premium smartphone with slim bezels and edge-to-edge display, upright in a clean studio with soft gradients"
+  },
+  {
+    "name": "Nike Air Max 270",
+    "slug": "nike-air-max-270",
+    "category": "fashion",
+    "subcategory": "Footwear",
+    "filename": "nike-air-max-270.webp",
+    "frontend_path": "/products/fashion/nike-air-max-270.webp",
+    "image_description": "stylish sporty sneaker shown in side profile on a clean light studio background"
+  },
+  {
+    "name": "Levi's 511 Slim Jeans",
+    "slug": "levis-511-slim-jeans",
+    "category": "fashion",
+    "subcategory": "Men's Bottomwear",
+    "filename": "levis-511-slim-jeans.webp",
+    "frontend_path": "/products/fashion/levis-511-slim-jeans.webp",
+    "image_description": "folded slim-fit denim jeans displayed flat on a light neutral background"
+  },
+  {
+    "name": "Van Heusen Cotton Formal Shirt",
+    "slug": "van-heusen-cotton-formal-shirt",
+    "category": "fashion",
+    "subcategory": "Men's Topwear",
+    "filename": "van-heusen-cotton-formal-shirt.webp",
+    "frontend_path": "/products/fashion/van-heusen-cotton-formal-shirt.webp",
+    "image_description": "neatly folded collared cotton shirt displayed flat on a light neutral background"
+  },
+  {
+    "name": "Zara Floral Midi Dress",
+    "slug": "zara-floral-midi-dress",
+    "category": "fashion",
+    "subcategory": "Women's Dresses",
+    "filename": "zara-floral-midi-dress.webp",
+    "frontend_path": "/products/fashion/zara-floral-midi-dress.webp",
+    "image_description": "flowing floral midi dress on a hanger in soft bright studio light"
+  },
+  {
+    "name": "Puma RS-X Sneakers",
+    "slug": "puma-rs-x-sneakers",
+    "category": "fashion",
+    "subcategory": "Footwear",
+    "filename": "puma-rs-x-sneakers.webp",
+    "frontend_path": "/products/fashion/puma-rs-x-sneakers.webp",
+    "image_description": "stylish sporty sneaker shown in side profile on a clean light studio background"
+  },
+  {
+    "name": "US Polo Assn. Polo T-Shirt",
+    "slug": "us-polo-polo-tshirt",
+    "category": "fashion",
+    "subcategory": "Men's Topwear",
+    "filename": "us-polo-polo-tshirt.webp",
+    "frontend_path": "/products/fashion/us-polo-polo-tshirt.webp",
+    "image_description": "neatly folded collared cotton shirt displayed flat on a light neutral background"
+  },
+  {
+    "name": "FabIndia Cotton Kurta",
+    "slug": "fabindia-cotton-kurta",
+    "category": "fashion",
+    "subcategory": "Ethnic Wear",
+    "filename": "fabindia-cotton-kurta.webp",
+    "frontend_path": "/products/fashion/fabindia-cotton-kurta.webp",
+    "image_description": "traditional embroidered cotton kurta displayed flat on a clean light background"
+  },
+  {
+    "name": "Adidas Tiro 23 Track Pants",
+    "slug": "adidas-tiro-23-track-pants",
+    "category": "fashion",
+    "subcategory": "Sportswear",
+    "filename": "adidas-tiro-23-track-pants.webp",
+    "frontend_path": "/products/fashion/adidas-tiro-23-track-pants.webp",
+    "image_description": "athletic track pants folded beside a sports shoe on a clean sporty background"
+  },
+  {
+    "name": "W Women's Straight Kurta Set",
+    "slug": "w-womens-straight-kurta-set",
+    "category": "fashion",
+    "subcategory": "Women's Ethnic Wear",
+    "filename": "w-womens-straight-kurta-set.webp",
+    "frontend_path": "/products/fashion/w-womens-straight-kurta-set.webp",
+    "image_description": "colorful embroidered kurta and salwar set displayed on a clean mannequin"
+  },
+  {
+    "name": "Biba Salwar Suit Set",
+    "slug": "biba-salwar-suit-set",
+    "category": "fashion",
+    "subcategory": "Women's Ethnic Wear",
+    "filename": "biba-salwar-suit-set.webp",
+    "frontend_path": "/products/fashion/biba-salwar-suit-set.webp",
+    "image_description": "colorful embroidered kurta and salwar set displayed on a clean mannequin"
+  },
+  {
+    "name": "HRX Sports Running Shoes",
+    "slug": "hrx-sports-running-shoes",
+    "category": "fashion",
+    "subcategory": "Footwear",
+    "filename": "hrx-sports-running-shoes.webp",
+    "frontend_path": "/products/fashion/hrx-sports-running-shoes.webp",
+    "image_description": "stylish sporty sneaker shown in side profile on a clean light studio background"
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "slug": "sony-wh-1000xm5-headphones",
+    "category": "electronics",
+    "subcategory": "Headphones",
+    "filename": "sony-wh-1000xm5-headphones.webp",
+    "frontend_path": "/products/electronics/sony-wh-1000xm5-headphones.webp",
+    "image_description": "wireless over-ear headphones with plush ear cushions on a minimal light background"
+  },
+  {
+    "name": "Apple AirPods Pro 2nd Gen",
+    "slug": "apple-airpods-pro-2nd-gen",
+    "category": "electronics",
+    "subcategory": "True Wireless Earbuds",
+    "filename": "apple-airpods-pro-2nd-gen.webp",
+    "frontend_path": "/products/electronics/apple-airpods-pro-2nd-gen.webp",
+    "image_description": "pair of compact true wireless earbuds next to their open charging case on a clean background"
+  },
+  {
+    "name": "Samsung 55-inch 4K Crystal UHD TV",
+    "slug": "samsung-55-4k-crystal-uhd-tv",
+    "category": "electronics",
+    "subcategory": "Televisions",
+    "filename": "samsung-55-4k-crystal-uhd-tv.webp",
+    "frontend_path": "/products/electronics/samsung-55-4k-crystal-uhd-tv.webp",
+    "image_description": "slim ultra-thin 4K flat-screen TV mounted on a modern living room wall"
+  },
+  {
+    "name": "JBL Charge 5 Bluetooth Speaker",
+    "slug": "jbl-charge-5-bluetooth-speaker",
+    "category": "electronics",
+    "subcategory": "Speakers",
+    "filename": "jbl-charge-5-bluetooth-speaker.webp",
+    "frontend_path": "/products/electronics/jbl-charge-5-bluetooth-speaker.webp",
+    "image_description": "portable cylindrical Bluetooth speaker with cloth texture on a clean background"
+  },
+  {
+    "name": "Logitech MX Master 3S Wireless Mouse",
+    "slug": "logitech-mx-master-3s-wireless-mouse",
+    "category": "electronics",
+    "subcategory": "Computer Peripherals",
+    "filename": "logitech-mx-master-3s-wireless-mouse.webp",
+    "frontend_path": "/products/electronics/logitech-mx-master-3s-wireless-mouse.webp",
+    "image_description": "wireless ergonomic mouse and mechanical keyboard on a clean desk with soft light"
+  },
+  {
+    "name": "Dell 27-inch IPS Monitor",
+    "slug": "dell-27-inch-ips-monitor",
+    "category": "electronics",
+    "subcategory": "Monitors",
+    "filename": "dell-27-inch-ips-monitor.webp",
+    "frontend_path": "/products/electronics/dell-27-inch-ips-monitor.webp",
+    "image_description": "monitor with thin bezels and adjustable stand on a tidy desk lit by natural light"
+  },
+  {
+    "name": "boAt Airdopes 141 TWS Earbuds",
+    "slug": "boat-airdopes-141-tws-earbuds",
+    "category": "electronics",
+    "subcategory": "True Wireless Earbuds",
+    "filename": "boat-airdopes-141-tws-earbuds.webp",
+    "frontend_path": "/products/electronics/boat-airdopes-141-tws-earbuds.webp",
+    "image_description": "pair of compact true wireless earbuds next to their open charging case on a clean background"
+  },
+  {
+    "name": "Anker 20000mAh Power Bank",
+    "slug": "anker-20000mah-power-bank",
+    "category": "electronics",
+    "subcategory": "Power Banks",
+    "filename": "anker-20000mah-power-bank.webp",
+    "frontend_path": "/products/electronics/anker-20000mah-power-bank.webp",
+    "image_description": "portable power bank with a coiled charging cable on a minimal light surface"
+  },
+  {
+    "name": "Corsair K70 RGB MK.2 Keyboard",
+    "slug": "corsair-k70-rgb-mk2-keyboard",
+    "category": "electronics",
+    "subcategory": "Computer Peripherals",
+    "filename": "corsair-k70-rgb-mk2-keyboard.webp",
+    "frontend_path": "/products/electronics/corsair-k70-rgb-mk2-keyboard.webp",
+    "image_description": "wireless ergonomic mouse and mechanical keyboard on a clean desk with soft light"
+  },
+  {
+    "name": "Philips 65-inch 4K QLED TV",
+    "slug": "philips-65-4k-qled-tv",
+    "category": "electronics",
+    "subcategory": "Televisions",
+    "filename": "philips-65-4k-qled-tv.webp",
+    "frontend_path": "/products/electronics/philips-65-4k-qled-tv.webp",
+    "image_description": "slim ultra-thin 4K flat-screen TV mounted on a modern living room wall"
+  },
+  {
+    "name": "Mi Smart Band 8",
+    "slug": "mi-smart-band-8",
+    "category": "electronics",
+    "subcategory": "Wearables",
+    "filename": "mi-smart-band-8.webp",
+    "frontend_path": "/products/electronics/mi-smart-band-8.webp",
+    "image_description": "lightweight smart fitness band with a bright circular display on a clean surface"
+  },
+  {
+    "name": "Prestige Svachh Pressure Cooker 5L",
+    "slug": "prestige-svachh-pressure-cooker-5l",
+    "category": "home",
+    "subcategory": "Cookware",
+    "filename": "prestige-svachh-pressure-cooker-5l.webp",
+    "frontend_path": "/products/home/prestige-svachh-pressure-cooker-5l.webp",
+    "image_description": "pressure cooker and non-stick pan and cooktop arranged on a bright kitchen counter"
+  },
+  {
+    "name": "Milton Thermosteel Flask 1L",
+    "slug": "milton-thermosteel-flask-1l",
+    "category": "home",
+    "subcategory": "Drinkware",
+    "filename": "milton-thermosteel-flask-1l.webp",
+    "frontend_path": "/products/home/milton-thermosteel-flask-1l.webp",
+    "image_description": "insulated steel flask with a water bottle on a clean bright table"
+  },
+  {
+    "name": "Wonderchef Granite Non-stick Pan 28cm",
+    "slug": "wonderchef-granite-non-stick-pan-28cm",
+    "category": "home",
+    "subcategory": "Cookware",
+    "filename": "wonderchef-granite-non-stick-pan-28cm.webp",
+    "frontend_path": "/products/home/wonderchef-granite-non-stick-pan-28cm.webp",
+    "image_description": "pressure cooker and non-stick pan and cooktop arranged on a bright kitchen counter"
+  },
+  {
+    "name": "Borosil Glass Mixing Bowl Set of 3",
+    "slug": "borosil-glass-mixing-bowl-set-3",
+    "category": "home",
+    "subcategory": "Kitchen Storage",
+    "filename": "borosil-glass-mixing-bowl-set-3.webp",
+    "frontend_path": "/products/home/borosil-glass-mixing-bowl-set-3.webp",
+    "image_description": "set of glass mixing bowls with modular storage containers stacked on a counter"
+  },
+  {
+    "name": "Tupperware Modular Mates Set of 5",
+    "slug": "tupperware-modular-mates-set-5",
+    "category": "home",
+    "subcategory": "Kitchen Storage",
+    "filename": "tupperware-modular-mates-set-5.webp",
+    "frontend_path": "/products/home/tupperware-modular-mates-set-5.webp",
+    "image_description": "set of glass mixing bowls with modular storage containers stacked on a counter"
+  },
+  {
+    "name": "Amazon Basics Microfiber Bedsheet Double",
+    "slug": "amazon-basics-microfiber-bedsheet-double",
+    "category": "home",
+    "subcategory": "Bedding",
+    "filename": "amazon-basics-microfiber-bedsheet-double.webp",
+    "frontend_path": "/products/home/amazon-basics-microfiber-bedsheet-double.webp",
+    "image_description": "folded microfiber bedsheet showing a subtle grid pattern on a bright bed"
+  },
+  {
+    "name": "Trident 450 GSM Cotton Towel Set of 2",
+    "slug": "trident-450-gsm-cotton-towel-set-2",
+    "category": "home",
+    "subcategory": "Bath Linen",
+    "filename": "trident-450-gsm-cotton-towel-set-2.webp",
+    "frontend_path": "/products/home/trident-450-gsm-cotton-towel-set-2.webp",
+    "image_description": "pair of soft terry cloth towels neatly rolled on a clean bathroom shelf"
+  },
+  {
+    "name": "Kuber Industries 3-Tier Shoe Rack",
+    "slug": "kuber-industries-3-tier-shoe-rack",
+    "category": "home",
+    "subcategory": "Storage & Organisation",
+    "filename": "kuber-industries-3-tier-shoe-rack.webp",
+    "frontend_path": "/products/home/kuber-industries-3-tier-shoe-rack.webp",
+    "image_description": "multi-tier shoe rack with neatly arranged sneakers in a clean entrance"
+  },
+  {
+    "name": "Pigeon by Stovekraft Infrared Cooktop",
+    "slug": "pigeon-infrared-cooktop",
+    "category": "home",
+    "subcategory": "Cookware",
+    "filename": "pigeon-infrared-cooktop.webp",
+    "frontend_path": "/products/home/pigeon-infrared-cooktop.webp",
+    "image_description": "pressure cooker and non-stick pan and cooktop arranged on a bright kitchen counter"
+  },
+  {
+    "name": "Philips B22 LED Bulb 9W Pack of 6",
+    "slug": "philips-b22-led-bulb-9w-pack-6",
+    "category": "home",
+    "subcategory": "Lighting",
+    "filename": "philips-b22-led-bulb-9w-pack-6.webp",
+    "frontend_path": "/products/home/philips-b22-led-bulb-9w-pack-6.webp",
+    "image_description": "pack of clear LED bulbs on a clean table with gentle warm light"
+  },
+  {
+    "name": "Cello Ozone Plastic Water Bottle 1L",
+    "slug": "cello-ozone-plastic-water-bottle-1l",
+    "category": "home",
+    "subcategory": "Drinkware",
+    "filename": "cello-ozone-plastic-water-bottle-1l.webp",
+    "frontend_path": "/products/home/cello-ozone-plastic-water-bottle-1l.webp",
+    "image_description": "insulated steel flask with a water bottle on a clean bright table"
+  },
+  {
+    "name": "LG 7kg 5-Star Front Load Washing Machine",
+    "slug": "lg-7kg-5star-front-load-washing-machine",
+    "category": "appliances",
+    "subcategory": "Washing Machines",
+    "filename": "lg-7kg-5star-front-load-washing-machine.webp",
+    "frontend_path": "/products/appliances/lg-7kg-5star-front-load-washing-machine.webp",
+    "image_description": "front-load washing machine with a clean porthole in a bright utility room"
+  },
+  {
+    "name": "Samsung 253L Double Door Refrigerator",
+    "slug": "samsung-253l-double-door-refrigerator",
+    "category": "appliances",
+    "subcategory": "Refrigerators",
+    "filename": "samsung-253l-double-door-refrigerator.webp",
+    "frontend_path": "/products/appliances/samsung-253l-double-door-refrigerator.webp",
+    "image_description": "twin-door refrigerator with clean white finish in a bright modern kitchen"
+  },
+  {
+    "name": "Panasonic 1.5 Ton 5-Star Inverter AC",
+    "slug": "panasonic-1-5ton-5star-inverter-ac",
+    "category": "appliances",
+    "subcategory": "Air Conditioners",
+    "filename": "panasonic-1-5ton-5star-inverter-ac.webp",
+    "frontend_path": "/products/appliances/panasonic-1-5ton-5star-inverter-ac.webp",
+    "image_description": "modern split air-conditioner indoor unit mounted on a clean wall in a bright room"
+  },
+  {
+    "name": "Philips Air Fryer HD9200",
+    "slug": "philips-air-fryer-hd9200",
+    "category": "appliances",
+    "subcategory": "Kitchen Appliances",
+    "filename": "philips-air-fryer-hd9200.webp",
+    "frontend_path": "/products/appliances/philips-air-fryer-hd9200.webp",
+    "image_description": "compact air fryer and mixer grinder kitchen appliances on a bright countertop"
+  },
+  {
+    "name": "Bajaj Rex 500W Mixer Grinder",
+    "slug": "bajaj-rex-500w-mixer-grinder",
+    "category": "appliances",
+    "subcategory": "Kitchen Appliances",
+    "filename": "bajaj-rex-500w-mixer-grinder.webp",
+    "frontend_path": "/products/appliances/bajaj-rex-500w-mixer-grinder.webp",
+    "image_description": "compact air fryer and mixer grinder kitchen appliances on a bright countertop"
+  },
+  {
+    "name": "Havells Cista 2000W Room Heater",
+    "slug": "havells-cista-2000w-room-heater",
+    "category": "appliances",
+    "subcategory": "Heaters & Fans",
+    "filename": "havells-cista-2000w-room-heater.webp",
+    "frontend_path": "/products/appliances/havells-cista-2000w-room-heater.webp",
+    "image_description": "compact portable room heater with a fan in a bright modern room"
+  },
+  {
+    "name": "Butterfly Trio 3-Burner Gas Stove",
+    "slug": "butterfly-trio-3-burner-gas-stove",
+    "category": "appliances",
+    "subcategory": "Cooking Appliances",
+    "filename": "butterfly-trio-3-burner-gas-stove.webp",
+    "frontend_path": "/products/appliances/butterfly-trio-3-burner-gas-stove.webp",
+    "image_description": "multi-burner gas stove in stainless finish on a clean kitchen counter"
+  },
+  {
+    "name": "Morphy Richards 2-Slice Pop-Up Toaster",
+    "slug": "morphy-richards-2-slice-popup-toaster",
+    "category": "appliances",
+    "subcategory": "Kitchen Appliances",
+    "filename": "morphy-richards-2-slice-popup-toaster.webp",
+    "frontend_path": "/products/appliances/morphy-richards-2-slice-popup-toaster.webp",
+    "image_description": "compact air fryer and mixer grinder kitchen appliances on a bright countertop"
+  },
+  {
+    "name": "Crompton Energion Ceiling Fan 1200mm",
+    "slug": "crompton-energion-ceiling-fan-1200mm",
+    "category": "appliances",
+    "subcategory": "Fans",
+    "filename": "crompton-energion-ceiling-fan-1200mm.webp",
+    "frontend_path": "/products/appliances/crompton-energion-ceiling-fan-1200mm.webp",
+    "image_description": "ceiling fan with swept blades and pull chain hanging in a bright room"
+  },
+  {
+    "name": "Inalsa Polo 1000W Hand Blender",
+    "slug": "inalsa-polo-1000w-hand-blender",
+    "category": "appliances",
+    "subcategory": "Kitchen Appliances",
+    "filename": "inalsa-polo-1000w-hand-blender.webp",
+    "frontend_path": "/products/appliances/inalsa-polo-1000w-hand-blender.webp",
+    "image_description": "compact air fryer and mixer grinder kitchen appliances on a bright countertop"
+  },
+  {
+    "name": "V-Guard Digi 200 Voltage Stabilizer",
+    "slug": "v-guard-digi-200-voltage-stabilizer",
+    "category": "appliances",
+    "subcategory": "Electrical Accessories",
+    "filename": "v-guard-digi-200-voltage-stabilizer.webp",
+    "frontend_path": "/products/appliances/v-guard-digi-200-voltage-stabilizer.webp",
+    "image_description": "electronic voltage stabilizer box with a digital display on a clean surface"
+  },
+  {
+    "name": "Mamaearth Vitamin C Face Wash 100ml",
+    "slug": "mamaearth-vitamin-c-face-wash-100ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "mamaearth-vitamin-c-face-wash-100ml.webp",
+    "frontend_path": "/products/beauty/mamaearth-vitamin-c-face-wash-100ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Lakme 9-to-5 Primer + Matte Foundation",
+    "slug": "lakme-9to5-primer-matte-foundation",
+    "category": "beauty",
+    "subcategory": "Make-up",
+    "filename": "lakme-9to5-primer-matte-foundation.webp",
+    "frontend_path": "/products/beauty/lakme-9to5-primer-matte-foundation.webp",
+    "image_description": "makeup primer and foundation tubes with a brush resting on a neat dressing table"
+  },
+  {
+    "name": "WOW Coconut & Avocado Shampoo 300ml",
+    "slug": "wow-coconut-avocado-shampoo-300ml",
+    "category": "beauty",
+    "subcategory": "Hair Care",
+    "filename": "wow-coconut-avocado-shampoo-300ml.webp",
+    "frontend_path": "/products/beauty/wow-coconut-avocado-shampoo-300ml.webp",
+    "image_description": "shampoo and conditioner bottles with minimal design on a bright bathroom shelf beside a folded towel"
+  },
+  {
+    "name": "Plum 15% Vitamin C Face Serum 30ml",
+    "slug": "plum-15-vitamin-c-face-serum-30ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "plum-15-vitamin-c-face-serum-30ml.webp",
+    "frontend_path": "/products/beauty/plum-15-vitamin-c-face-serum-30ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Himalaya Purifying Neem Face Pack 75ml",
+    "slug": "himalaya-purifying-neem-face-pack-75ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "himalaya-purifying-neem-face-pack-75ml.webp",
+    "frontend_path": "/products/beauty/himalaya-purifying-neem-face-pack-75ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Biotique Bio Morning Nectar Sunscreen SPF 30",
+    "slug": "biotique-bio-morning-nectar-sunscreen-spf30",
+    "category": "beauty",
+    "subcategory": "Sun Care",
+    "filename": "biotique-bio-morning-nectar-sunscreen-spf30.webp",
+    "frontend_path": "/products/beauty/biotique-bio-morning-nectar-sunscreen-spf30.webp",
+    "image_description": "sunscreen bottle in soft sunlight beside a hat and sunglasses on a bright table"
+  },
+  {
+    "name": "Minimalist 10% Niacinamide Serum 30ml",
+    "slug": "minimalist-10-niacinamide-serum-30ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "minimalist-10-niacinamide-serum-30ml.webp",
+    "frontend_path": "/products/beauty/minimalist-10-niacinamide-serum-30ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Dot & Key Watermelon Sleeping Gel 45g",
+    "slug": "dot-key-watermelon-sleeping-gel-45g",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "dot-key-watermelon-sleeping-gel-45g.webp",
+    "frontend_path": "/products/beauty/dot-key-watermelon-sleeping-gel-45g.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Forest Essentials Facial Moisturiser 50ml",
+    "slug": "forest-essentials-facial-moisturiser-50ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "forest-essentials-facial-moisturiser-50ml.webp",
+    "frontend_path": "/products/beauty/forest-essentials-facial-moisturiser-50ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "The Body Shop Tea Tree Face Wash 250ml",
+    "slug": "body-shop-tea-tree-face-wash-250ml",
+    "category": "beauty",
+    "subcategory": "Face Care",
+    "filename": "body-shop-tea-tree-face-wash-250ml.webp",
+    "frontend_path": "/products/beauty/body-shop-tea-tree-face-wash-250ml.webp",
+    "image_description": "collection of skincare jars, tubes and dropper serum bottles arranged on a clean white vanity surface"
+  },
+  {
+    "name": "Cetaphil Moisturizing Lotion 250ml",
+    "slug": "cetaphil-moisturizing-lotion-250ml",
+    "category": "beauty",
+    "subcategory": "Body Care",
+    "filename": "cetaphil-moisturizing-lotion-250ml.webp",
+    "frontend_path": "/products/beauty/cetaphil-moisturizing-lotion-250ml.webp",
+    "image_description": "moisturizing lotion bottle with a pump on a clean surface with a soft folded towel"
+  },
+  {
+    "name": "LEGO Classic Creative Bricks 900 Pieces",
+    "slug": "lego-classic-creative-bricks-900pc",
+    "category": "toys-baby",
+    "subcategory": "Building Toys",
+    "filename": "lego-classic-creative-bricks-900pc.webp",
+    "frontend_path": "/products/toys-baby/lego-classic-creative-bricks-900pc.webp",
+    "image_description": "box of colorful interlocking plastic building blocks in bright primary colors"
+  },
+  {
+    "name": "Fisher-Price Laugh & Learn Smart Stages",
+    "slug": "fisher-price-laugh-learn-smart-stages",
+    "category": "toys-baby",
+    "subcategory": "Educational Toys",
+    "filename": "fisher-price-laugh-learn-smart-stages.webp",
+    "frontend_path": "/products/toys-baby/fisher-price-laugh-learn-smart-stages.webp",
+    "image_description": "interactive smart learning toy with colorful buttons and a cute face"
+  },
+  {
+    "name": "Funskool Puzzle Board 48 Pieces",
+    "slug": "funskool-puzzle-board-48-pieces",
+    "category": "toys-baby",
+    "subcategory": "Puzzles",
+    "filename": "funskool-puzzle-board-48-pieces.webp",
+    "frontend_path": "/products/toys-baby/funskool-puzzle-board-48-pieces.webp",
+    "image_description": "colorful jigsaw puzzle with some pieces already connected on a clean table"
+  },
+  {
+    "name": "Hot Wheels 20-Car Gift Pack",
+    "slug": "hot-wheels-20-car-gift-pack",
+    "category": "toys-baby",
+    "subcategory": "Die-cast Vehicles",
+    "filename": "hot-wheels-20-car-gift-pack.webp",
+    "frontend_path": "/products/toys-baby/hot-wheels-20-car-gift-pack.webp",
+    "image_description": "row of miniature die-cast toy cars in bright colors on a clean background"
+  },
+  {
+    "name": "Barbie Fashionista Doll",
+    "slug": "barbie-fashionista-doll",
+    "category": "toys-baby",
+    "subcategory": "Dolls",
+    "filename": "barbie-fashionista-doll.webp",
+    "frontend_path": "/products/toys-baby/barbie-fashionista-doll.webp",
+    "image_description": "stylish fashion doll with embroidered outfit on a clean pastel background"
+  },
+  {
+    "name": "Nerf Elite 2.0 Commander Blaster",
+    "slug": "nerf-elite-2-commander-blaster",
+    "category": "toys-baby",
+    "subcategory": "Outdoor & Action Toys",
+    "filename": "nerf-elite-2-commander-blaster.webp",
+    "frontend_path": "/products/toys-baby/nerf-elite-2-commander-blaster.webp",
+    "image_description": "plastic foam-dart toy blaster with a target on a clean bright background"
+  },
+  {
+    "name": "Play-Doh Deluxe Creativity Set",
+    "slug": "play-doh-deluxe-creativity-set",
+    "category": "toys-baby",
+    "subcategory": "Arts & Crafts",
+    "filename": "play-doh-deluxe-creativity-set.webp",
+    "frontend_path": "/products/toys-baby/play-doh-deluxe-creativity-set.webp",
+    "image_description": "vibrant modeling clay tubs with colorful dough and play tools on a clean table"
+  },
+  {
+    "name": "Munchkin Silicone Bibs Pack of 3",
+    "slug": "munchkin-silicone-bibs-pack-3",
+    "category": "toys-baby",
+    "subcategory": "Baby Feeding",
+    "filename": "munchkin-silicone-bibs-pack-3.webp",
+    "frontend_path": "/products/toys-baby/munchkin-silicone-bibs-pack-3.webp",
+    "image_description": "silicone feeding bibs and a baby bottle in pastel colors on a clean table"
+  },
+  {
+    "name": "Pigeon Wide Neck Baby Bottle 300ml",
+    "slug": "pigeon-wide-neck-baby-bottle-300ml",
+    "category": "toys-baby",
+    "subcategory": "Baby Feeding",
+    "filename": "pigeon-wide-neck-baby-bottle-300ml.webp",
+    "frontend_path": "/products/toys-baby/pigeon-wide-neck-baby-bottle-300ml.webp",
+    "image_description": "silicone feeding bibs and a baby bottle in pastel colors on a clean table"
+  },
+  {
+    "name": "Chicco Multifunctional Baby Walker",
+    "slug": "chicco-multifunctional-baby-walker",
+    "category": "toys-baby",
+    "subcategory": "Baby Gear",
+    "filename": "chicco-multifunctional-baby-walker.webp",
+    "frontend_path": "/products/toys-baby/chicco-multifunctional-baby-walker.webp",
+    "image_description": "colorful multifunctional baby walker with interactive panels on a bright floor"
+  },
+  {
+    "name": "Pampers Premium Care Baby Wipes 72-Pack",
+    "slug": "pampers-premium-care-baby-wipes-72pc",
+    "category": "toys-baby",
+    "subcategory": "Baby Care",
+    "filename": "pampers-premium-care-baby-wipes-72pc.webp",
+    "frontend_path": "/products/toys-baby/pampers-premium-care-baby-wipes-72pc.webp",
+    "image_description": "soft pack of baby wipes and diapers with a plush teddy on a pastel background"
+  },
+  {
+    "name": "Huggies Wonder Pants Medium 56 Count",
+    "slug": "huggies-wonder-pants-medium-56-count",
+    "category": "toys-baby",
+    "subcategory": "Baby Care",
+    "filename": "huggies-wonder-pants-medium-56-count.webp",
+    "frontend_path": "/products/toys-baby/huggies-wonder-pants-medium-56-count.webp",
+    "image_description": "soft pack of baby wipes and diapers with a plush teddy on a pastel background"
+  },
+  {
+    "name": "Wakefit Orthopedic Memory Foam Mattress Queen",
+    "slug": "wakefit-orthopedic-memory-foam-mattress-queen",
+    "category": "furniture",
+    "subcategory": "Mattresses",
+    "filename": "wakefit-orthopedic-memory-foam-mattress-queen.webp",
+    "frontend_path": "/products/furniture/wakefit-orthopedic-memory-foam-mattress-queen.webp",
+    "image_description": "thick layered foam mattress standing upright in a bright modern bedroom"
+  },
+  {
+    "name": "Nilkamal Plastic Chair Set of 4",
+    "slug": "nilkamal-plastic-chair-set-4",
+    "category": "furniture",
+    "subcategory": "Chairs",
+    "filename": "nilkamal-plastic-chair-set-4.webp",
+    "frontend_path": "/products/furniture/nilkamal-plastic-chair-set-4.webp",
+    "image_description": "stackable plastic chairs in a row on a bright clean interior"
+  },
+  {
+    "name": "Godrej Interio Slimline 3-Door Wardrobe",
+    "slug": "godrej-interio-slimline-3door-wardrobe",
+    "category": "furniture",
+    "subcategory": "Wardrobes",
+    "filename": "godrej-interio-slimline-3door-wardrobe.webp",
+    "frontend_path": "/products/furniture/godrej-interio-slimline-3door-wardrobe.webp",
+    "image_description": "slim modern wardrobe cabinet with closed doors in a clean bedroom"
+  },
+  {
+    "name": "Wooden Street Sheesham Coffee Table",
+    "slug": "wooden-street-sheesham-coffee-table",
+    "category": "furniture",
+    "subcategory": "Tables",
+    "filename": "wooden-street-sheesham-coffee-table.webp",
+    "frontend_path": "/products/furniture/wooden-street-sheesham-coffee-table.webp",
+    "image_description": "wooden furniture table piece in a bright modern interior with soft daylight"
+  },
+  {
+    "name": "Urban Ladder Walnut Dining Table 6-Seater",
+    "slug": "urban-ladder-walnut-dining-table-6-seater",
+    "category": "furniture",
+    "subcategory": "Dining",
+    "filename": "urban-ladder-walnut-dining-table-6-seater.webp",
+    "frontend_path": "/products/furniture/urban-ladder-walnut-dining-table-6-seater.webp",
+    "image_description": "elegant wooden dining table with six chairs set in a bright dining room"
+  },
+  {
+    "name": "Pepperfry Study Table with Drawer",
+    "slug": "pepperfry-study-table-with-drawer",
+    "category": "furniture",
+    "subcategory": "Tables",
+    "filename": "pepperfry-study-table-with-drawer.webp",
+    "frontend_path": "/products/furniture/pepperfry-study-table-with-drawer.webp",
+    "image_description": "wooden furniture table piece in a bright modern interior with soft daylight"
+  },
+  {
+    "name": "Sunday Sleep 6-Inch Foam Mattress King",
+    "slug": "sunday-sleep-6-inch-foam-mattress-king",
+    "category": "furniture",
+    "subcategory": "Mattresses",
+    "filename": "sunday-sleep-6-inch-foam-mattress-king.webp",
+    "frontend_path": "/products/furniture/sunday-sleep-6-inch-foam-mattress-king.webp",
+    "image_description": "thick layered foam mattress standing upright in a bright modern bedroom"
+  },
+  {
+    "name": "Featherlite Executive Office Chair",
+    "slug": "featherlite-executive-office-chair",
+    "category": "furniture",
+    "subcategory": "Chairs",
+    "filename": "featherlite-executive-office-chair.webp",
+    "frontend_path": "/products/furniture/featherlite-executive-office-chair.webp",
+    "image_description": "stackable plastic chairs in a row on a bright clean interior"
+  },
+  {
+    "name": "Hometown 3-Seater Fabric Sofa",
+    "slug": "hometown-3-seater-fabric-sofa",
+    "category": "furniture",
+    "subcategory": "Sofas",
+    "filename": "hometown-3-seater-fabric-sofa.webp",
+    "frontend_path": "/products/furniture/hometown-3-seater-fabric-sofa.webp",
+    "image_description": "modern fabric 3-seater sofa with cushions in a bright living room"
+  },
+  {
+    "name": "IKEA KALLAX Shelf Unit 4x4",
+    "slug": "ikea-kallax-shelf-unit-4x4",
+    "category": "furniture",
+    "subcategory": "Storage",
+    "filename": "ikea-kallax-shelf-unit-4x4.webp",
+    "frontend_path": "/products/furniture/ikea-kallax-shelf-unit-4x4.webp",
+    "image_description": "modern modular shelf unit with books and boxes arranged neatly in a bright room"
+  },
+  {
+    "name": "Kurl-on 5-Inch Bonnell Spring Mattress Double",
+    "slug": "kurlon-5-inch-bonnell-spring-mattress-double",
+    "category": "furniture",
+    "subcategory": "Mattresses",
+    "filename": "kurlon-5-inch-bonnell-spring-mattress-double.webp",
+    "frontend_path": "/products/furniture/kurlon-5-inch-bonnell-spring-mattress-double.webp",
+    "image_description": "thick layered foam mattress standing upright in a bright modern bedroom"
+  },
+  {
+    "name": "American Tourister Linea 68cm Trolley",
+    "slug": "american-tourister-linea-68cm-trolley",
+    "category": "travel",
+    "subcategory": "Check-in Luggage",
+    "filename": "american-tourister-linea-68cm-trolley.webp",
+    "frontend_path": "/products/travel/american-tourister-linea-68cm-trolley.webp",
+    "image_description": "large hard-shell wheeled trolley suitcase with telescopic handle on a clean background"
+  },
+  {
+    "name": "Skybags Footloose 65cm Trolley",
+    "slug": "skybags-footloose-65cm-trolley",
+    "category": "travel",
+    "subcategory": "Check-in Luggage",
+    "filename": "skybags-footloose-65cm-trolley.webp",
+    "frontend_path": "/products/travel/skybags-footloose-65cm-trolley.webp",
+    "image_description": "large hard-shell wheeled trolley suitcase with telescopic handle on a clean background"
+  },
+  {
+    "name": "VIP Aristocrat Polypropylene Trolley 4W 65cm",
+    "slug": "vip-aristocrat-polypropylene-trolley-65cm",
+    "category": "travel",
+    "subcategory": "Check-in Luggage",
+    "filename": "vip-aristocrat-polypropylene-trolley-65cm.webp",
+    "frontend_path": "/products/travel/vip-aristocrat-polypropylene-trolley-65cm.webp",
+    "image_description": "large hard-shell wheeled trolley suitcase with telescopic handle on a clean background"
+  },
+  {
+    "name": "Mokobara The Globe-Trotter 26-inch Check-in Bag",
+    "slug": "mokobara-globe-trotter-26-inch-checkin-bag",
+    "category": "travel",
+    "subcategory": "Check-in Luggage",
+    "filename": "mokobara-globe-trotter-26-inch-checkin-bag.webp",
+    "frontend_path": "/products/travel/mokobara-globe-trotter-26-inch-checkin-bag.webp",
+    "image_description": "large hard-shell wheeled trolley suitcase with telescopic handle on a clean background"
+  },
+  {
+    "name": "Samsonite Zigo 55cm Cabin Trolley",
+    "slug": "samsonite-zigo-55cm-cabin-trolley",
+    "category": "travel",
+    "subcategory": "Cabin Luggage",
+    "filename": "samsonite-zigo-55cm-cabin-trolley.webp",
+    "frontend_path": "/products/travel/samsonite-zigo-55cm-cabin-trolley.webp",
+    "image_description": "small compact 4-wheel hard-shell trolley suitcase in a clean studio setting"
+  },
+  {
+    "name": "Wildcraft Trailblazer 45L Hiking Backpack",
+    "slug": "wildcraft-trailblazer-45l-hiking-backpack",
+    "category": "travel",
+    "subcategory": "Backpacks",
+    "filename": "wildcraft-trailblazer-45l-hiking-backpack.webp",
+    "frontend_path": "/products/travel/wildcraft-trailblazer-45l-hiking-backpack.webp",
+    "image_description": "spacious padded hiking backpack with buckles standing on a clean outdoor-inspired background"
+  },
+  {
+    "name": "Swiss Military 15.6-inch Laptop Backpack",
+    "slug": "swiss-military-15-6-laptop-backpack",
+    "category": "travel",
+    "subcategory": "Backpacks",
+    "filename": "swiss-military-15-6-laptop-backpack.webp",
+    "frontend_path": "/products/travel/swiss-military-15-6-laptop-backpack.webp",
+    "image_description": "spacious padded hiking backpack with buckles standing on a clean outdoor-inspired background"
+  },
+  {
+    "name": "Safari Octane 73cm Hardshell Trolley",
+    "slug": "safari-octane-73cm-hardshell-trolley",
+    "category": "travel",
+    "subcategory": "Check-in Luggage",
+    "filename": "safari-octane-73cm-hardshell-trolley.webp",
+    "frontend_path": "/products/travel/safari-octane-73cm-hardshell-trolley.webp",
+    "image_description": "large hard-shell wheeled trolley suitcase with telescopic handle on a clean background"
+  },
+  {
+    "name": "Tommy Hilfiger Men's Leather Bi-fold Wallet",
+    "slug": "tommy-hilfiger-mens-leather-bifold-wallet",
+    "category": "travel",
+    "subcategory": "Travel Accessories",
+    "filename": "tommy-hilfiger-mens-leather-bifold-wallet.webp",
+    "frontend_path": "/products/travel/tommy-hilfiger-mens-leather-bifold-wallet.webp",
+    "image_description": "bi-fold leather wallet laid open on a clean matte surface"
+  },
+  {
+    "name": "Noise ColorFit Pro 5 Smartwatch",
+    "slug": "noise-colorfit-pro-5-smartwatch",
+    "category": "travel",
+    "subcategory": "Smartwatches",
+    "filename": "noise-colorfit-pro-5-smartwatch.webp",
+    "frontend_path": "/products/travel/noise-colorfit-pro-5-smartwatch.webp",
+    "image_description": "smartwatch with vibrant watch face and sport band on a clean surface"
+  },
+  {
+    "name": "Titan Karishma Analog Watch for Women",
+    "slug": "titan-karishma-analog-watch-women",
+    "category": "travel",
+    "subcategory": "Watches",
+    "filename": "titan-karishma-analog-watch-women.webp",
+    "frontend_path": "/products/travel/titan-karishma-analog-watch-women.webp",
+    "image_description": "elegant analog wristwatch with distinct watch face on a soft cloth surface"
+  },
+  {
+    "name": "Fossil Neutra Chronograph Men's Watch",
+    "slug": "fossil-neutra-chronograph-mens-watch",
+    "category": "travel",
+    "subcategory": "Watches",
+    "filename": "fossil-neutra-chronograph-mens-watch.webp",
+    "frontend_path": "/products/travel/fossil-neutra-chronograph-mens-watch.webp",
+    "image_description": "elegant analog wristwatch with distinct watch face on a soft cloth surface"
+  },
+  {
+    "name": "Tata Tea Premium 500g",
+    "slug": "tata-tea-premium-500g",
+    "category": "grocery",
+    "subcategory": "Beverages",
+    "filename": "tata-tea-premium-500g.webp",
+    "frontend_path": "/products/grocery/tata-tea-premium-500g.webp",
+    "image_description": "kettle with poured tea and loose tea leaves in bowls on a bright kitchen table"
+  },
+  {
+    "name": "Aashirvaad Whole Wheat Atta 10kg",
+    "slug": "aashirvaad-whole-wheat-atta-10kg",
+    "category": "grocery",
+    "subcategory": "Staples",
+    "filename": "aashirvaad-whole-wheat-atta-10kg.webp",
+    "frontend_path": "/products/grocery/aashirvaad-whole-wheat-atta-10kg.webp",
+    "image_description": "sacks of whole-wheat flour and rice with grains spilled in a warm pantry scene"
+  },
+  {
+    "name": "Amul Butter 500g",
+    "slug": "amul-butter-500g",
+    "category": "grocery",
+    "subcategory": "Dairy",
+    "filename": "amul-butter-500g.webp",
+    "frontend_path": "/products/grocery/amul-butter-500g.webp",
+    "image_description": "block of butter wrapped in foil on a wooden board with a spreading knife"
+  },
+  {
+    "name": "India Gate Basmati Rice 5kg",
+    "slug": "india-gate-basmati-rice-5kg",
+    "category": "grocery",
+    "subcategory": "Staples",
+    "filename": "india-gate-basmati-rice-5kg.webp",
+    "frontend_path": "/products/grocery/india-gate-basmati-rice-5kg.webp",
+    "image_description": "sacks of whole-wheat flour and rice with grains spilled in a warm pantry scene"
+  },
+  {
+    "name": "Nestle Maggi Noodles 12-Pack",
+    "slug": "nestle-maggi-noodles-12-pack",
+    "category": "grocery",
+    "subcategory": "Instant Foods",
+    "filename": "nestle-maggi-noodles-12-pack.webp",
+    "frontend_path": "/products/grocery/nestle-maggi-noodles-12-pack.webp",
+    "image_description": "bowl of instant noodles with a pair of chopsticks on a bright table"
+  },
+  {
+    "name": "Saffola Gold Refined Oil 5L",
+    "slug": "saffola-gold-refined-oil-5l",
+    "category": "grocery",
+    "subcategory": "Cooking Oil",
+    "filename": "saffola-gold-refined-oil-5l.webp",
+    "frontend_path": "/products/grocery/saffola-gold-refined-oil-5l.webp",
+    "image_description": "bottle of clear golden cooking oil with a jar of oil on a clean kitchen counter"
+  },
+  {
+    "name": "Horlicks Health & Nutrition Drink 1kg",
+    "slug": "horlicks-health-nutrition-drink-1kg",
+    "category": "grocery",
+    "subcategory": "Health Drinks",
+    "filename": "horlicks-health-nutrition-drink-1kg.webp",
+    "frontend_path": "/products/grocery/horlicks-health-nutrition-drink-1kg.webp",
+    "image_description": "nutrition drink powder with a glass of milk and a wooden scoop"
+  },
+  {
+    "name": "Kissan Mixed Fruit Jam 700g",
+    "slug": "kissan-mixed-fruit-jam-700g",
+    "category": "grocery",
+    "subcategory": "Spreads & Condiments",
+    "filename": "kissan-mixed-fruit-jam-700g.webp",
+    "frontend_path": "/products/grocery/kissan-mixed-fruit-jam-700g.webp",
+    "image_description": "glass jam jar with berry spread and fresh fruit on a bright table"
+  },
+  {
+    "name": "MDH Deggi Mirch Masala 100g",
+    "slug": "mdh-deggi-mirch-masala-100g",
+    "category": "grocery",
+    "subcategory": "Spices & Condiments",
+    "filename": "mdh-deggi-mirch-masala-100g.webp",
+    "frontend_path": "/products/grocery/mdh-deggi-mirch-masala-100g.webp",
+    "image_description": "deep red spice masala powder in a small bowl surrounded by dried spices"
+  },
+  {
+    "name": "Parle-G Glucose Biscuits 800g",
+    "slug": "parle-g-glucose-biscuits-800g",
+    "category": "grocery",
+    "subcategory": "Biscuits & Snacks",
+    "filename": "parle-g-glucose-biscuits-800g.webp",
+    "frontend_path": "/products/grocery/parle-g-glucose-biscuits-800g.webp",
+    "image_description": "crisp golden crackers in a bowl beside a snack pack on a clean table"
+  },
+  {
+    "name": "Haldiram's Aloo Bhujia 1kg",
+    "slug": "haldirams-aloo-bhujia-1kg",
+    "category": "grocery",
+    "subcategory": "Biscuits & Snacks",
+    "filename": "haldirams-aloo-bhujia-1kg.webp",
+    "frontend_path": "/products/grocery/haldirams-aloo-bhujia-1kg.webp",
+    "image_description": "crisp golden crackers in a bowl beside a snack pack on a clean table"
+  },
+  {
+    "name": "Cadbury Dairy Milk Silk Bubbly Pack of 4",
+    "slug": "cadbury-dairy-milk-silk-bubbly-pack-4",
+    "category": "grocery",
+    "subcategory": "Chocolates & Confectionery",
+    "filename": "cadbury-dairy-milk-silk-bubbly-pack-4.webp",
+    "frontend_path": "/products/grocery/cadbury-dairy-milk-silk-bubbly-pack-4.webp",
+    "image_description": "stack of wrapped chocolate bars with melted chocolate drizzle on a board"
+  }
+]

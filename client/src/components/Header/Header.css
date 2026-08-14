@@ -1,0 +1,242 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  background: var(--primary-accent); /* Solid vibrant brand color instead of transparent */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4); /* Stronger shadow tinted with brand color */
+  z-index: 1000;
+}
+
+.header-logo {
+  font-size: 1.8rem; /* Slightly larger logo */
+  font-weight: 800;
+  letter-spacing: 0;
+  cursor: pointer;
+  color: white; /* Make text perfectly white against the dark background */
+}
+
+/* Override the accent color to be white now that the background is colored */
+.logo-accent {
+  color: white; 
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 750px;
+  margin: 0 2rem;
+  border-radius: 4px; /* Squarer edges look more like traditional e-commerce */
+  background: white; /* White search bar resting on the colored header */
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Replaces border with a light floating shadow */
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  outline: none;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.search-btn {
+  background: #4f46e5; /* A darker shade of Indigo for contrast against the white search bar */
+  color: white;
+  border: none;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.search-btn:hover {
+  background: #3730a3; /* Even darker on hover */
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* === UPDATED ICON BUTTONS === */
+.icon-box-btn {
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent white box */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white; /* Icons must be perfectly white */
+  transition: all 0.2s ease;
+}
+
+.icon-box-btn:hover {
+  background: rgba(255, 255, 255, 0.25); /* The box "lights up" with more white */
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+/* === CART BUTTON WITH COUNT BADGE === */
+.cart-btn {
+  position: relative;
+  text-decoration: none;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 10px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* === UPDATED LOGIN/SIGNUP BUTTON === */
+.auth-menu-container {
+  position: relative;
+  display: inline-flex;
+}
+
+.auth-btn {
+  background: white; 
+  color: var(--primary-accent); /* Dark text on white button */
+  border: none;
+  padding: 0 1.5rem;
+  height: 45px;
+  min-width: 88px;
+  max-width: 150px;
+  font-weight: 700;
+  border-radius: 8px; /* Matches everything else */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.auth-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.auth-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  min-width: 220px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  color: var(--text-primary);
+  padding: 0.75rem;
+  z-index: 1001;
+}
+
+.auth-menu-name {
+  font-size: 0.95rem;
+  font-weight: 800;
+  margin-bottom: 0.2rem;
+}
+
+.auth-menu-email {
+  color: #64748b;
+  font-size: 0.82rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  overflow-wrap: anywhere;
+}
+
+.auth-menu-signout {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #fef2f2;
+  color: #b42318;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 800;
+  padding: 0.7rem 0.85rem;
+  text-align: left;
+}
+
+.auth-menu-signout:hover {
+  background: #fee2e2;
+}
+
+/* === DROPDOWN MENU === */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: white; /* Dropdown must remain pure white */
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  border: 1px solid #e2e8f0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.5rem;
+  color: var(--text-primary); /* Keeps text dark and readable */
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background: #f8f9fa;
+  color: var(--primary-accent);
+}
+
+.dropdown-item-button {
+  border: none;
+  width: 100%;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
