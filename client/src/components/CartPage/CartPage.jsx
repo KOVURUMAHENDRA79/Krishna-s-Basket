@@ -123,7 +123,7 @@ function CartPage() {
             <span>Total</span>
             <span>{formatPrice(subtotal)}</span>
           </div>
-          <button className="checkout-btn">Checkout</button>
+          <Link to="/checkout" className="checkout-btn">Checkout</Link>
         </aside>
       </div>
     </section>

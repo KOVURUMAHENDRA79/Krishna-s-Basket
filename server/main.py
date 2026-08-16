@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
+from math import ceil
 import bcrypt
 from database import engine, SessionLocal
 import models
@@ -103,19 +104,26 @@ def get_categories(db: Session = Depends(get_db)):
 # PRODUCT ROUTES
 # ============================================================
 
-@app.get("/api/products", response_model=list[schemas.ProductResponse])
+@app.get("/api/products", response_model=schemas.ProductPage)
 def get_products(
     db: Session = Depends(get_db),
     featured: bool | None = None,
     category: str | None = None,
     search: str | None = None,
     sort: str | None = None,
-    limit: int | None = None,
+    page: int = 1,
+    limit: int = 12,
 ):
-    if limit is not None and not (1 <= limit <= 100):
+    if not (1 <= limit <= 1000):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail="limit must be between 1 and 100",
+            detail="limit must be between 1 and 1000",
+        )
+
+    if page < 1:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="page must be at least 1",
         )
 
     query = db.query(models.Product)
@@ -139,11 +147,24 @@ def get_products(
             detail="sort must be 'price_asc' or 'price_desc'",
         )
 
-    if limit is not None:
-        query = query.limit(limit)
+    # Count FIRST (after filters, before OFFSET/LIMIT) so the frontend
+    # knows how many pages exist.
+    total_products = query.count()
+    total_pages = ceil(total_products / limit)
 
+    # OFFSET = (page - 1) * limit  →  page 1 skips 0, page 2 skips 12, ...
+    query = query.offset((page - 1) * limit).limit(limit)
     products = query.all()
-    return products
+
+    return {
+        "products": products,
+        "pagination": {
+            "page": page,
+            "limit": limit,
+            "total_products": total_products,
+            "total_pages": total_pages,
+        },
+    }
 
 
 @app.get("/api/products/{product_id}", response_model=schemas.ProductResponse)

@@ -7,6 +7,7 @@ import ProductCarousel from './components/ProductCarousel/ProductCarousel';
 import CategoryProducts from './components/CategoryProducts/CategoryProducts';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import CartPage from './components/CartPage/CartPage';
+import CheckoutPage from './components/CheckoutPage/CheckoutPage';
 import SearchResults from './components/SearchResults/SearchResults';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
@@ -44,6 +45,9 @@ function App() {
 
               {/* Cart */}
               <Route path="/cart" element={<CartPage />} />
+
+              {/* Checkout (Layer 1: UI only) */}
+              <Route path="/checkout" element={<CheckoutPage />} />
             </Routes>
 
           </main>

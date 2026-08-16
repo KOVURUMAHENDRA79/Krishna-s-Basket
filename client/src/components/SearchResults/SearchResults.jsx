@@ -45,13 +45,15 @@ function SearchResults() {
 
     async function fetchProducts() {
       try {
-        const response = await fetch('http://127.0.0.1:8000/api/products');
+        const response = await fetch(
+          'http://127.0.0.1:8000/api/products?limit=1000'
+        );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
         }
         const data = await response.json();
         if (!cancelled) {
-          setAllProducts(data);
+          setAllProducts(data.products);
         }
       } catch {
         if (!cancelled) {

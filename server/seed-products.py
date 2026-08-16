@@ -86,6 +86,19 @@ for product_data in products_data:
     )
 
     if existing_product:
+        existing_product.name = product_data["name"]
+        existing_product.brand = product_data.get("brand")
+        existing_product.subcategory = product_data.get("subcategory")
+        existing_product.description = product_data.get("description")
+        existing_product.price = product_data["price"]
+        existing_product.original_price = product_data.get("original_price")
+        existing_product.discount_percentage = product_data.get("discount_percentage", 0)
+        existing_product.rating = product_data.get("rating", 0.0)
+        existing_product.review_count = product_data.get("review_count", 0)
+        existing_product.stock = product_data.get("stock", 0)
+        existing_product.image_url = product_data.get("image_url", "")
+        existing_product.specifications = json.dumps(product_data.get("specifications", {}))
+        existing_product.featured = product_data.get("featured", False)
         products_skipped += 1
         continue
 

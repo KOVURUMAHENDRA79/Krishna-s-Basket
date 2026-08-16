@@ -92,3 +92,15 @@ class CartItemResponse(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class PaginationMeta(BaseModel):
+    page: int
+    limit: int
+    total_products: int
+    total_pages: int
+
+
+class ProductPage(BaseModel):
+    products: list[ProductResponse]
+    pagination: PaginationMeta

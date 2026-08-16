@@ -46,7 +46,7 @@ function ProductCarousel() {
         }
         const data = await response.json();
         if (!cancelled) {
-          setProducts(data);
+          setProducts(data.products);
           setError(false);
         }
       } catch {

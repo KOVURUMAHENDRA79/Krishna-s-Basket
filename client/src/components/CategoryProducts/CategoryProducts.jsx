@@ -5,6 +5,8 @@ import { useCart } from '../../context/useCart';
 import '../ProductCarousel/ProductCarousel.css';
 import './CategoryProducts.css';
 
+const PRODUCTS_PER_PAGE = 12;
+
 const FALLBACK_IMAGE =
   'data:image/svg+xml;utf8,' +
   encodeURIComponent(
@@ -32,10 +34,17 @@ function renderStars(rating) {
 function CategoryProducts() {
   const { categorySlug } = useParams();
   const [products, setProducts] = useState([]);
+  const [pagination, setPagination] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [sort, setSort] = useState('default');
+  const [page, setPage] = useState(1);
   const { addToCart } = useCart();
+
+  // A new category or sort order means a fresh result set → back to page 1.
+  useEffect(() => {
+    setPage(1);
+  }, [categorySlug, sort]);
 
   useEffect(() => {
     let cancelled = false;
@@ -49,14 +58,15 @@ function CategoryProducts() {
         const sortParam =
           sort === 'default' ? '' : `&sort=${encodeURIComponent(sort)}`;
         const response = await fetch(
-          `http://127.0.0.1:8000/api/products?category=${encodeURIComponent(categorySlug)}${sortParam}`
+          `http://127.0.0.1:8000/api/products?category=${encodeURIComponent(categorySlug)}${sortParam}&page=${page}&limit=${PRODUCTS_PER_PAGE}`
         );
         if (!response.ok) {
           throw new Error(`Request failed with status ${response.status}`);
         }
         const data = await response.json();
         if (!cancelled) {
-          setProducts(data);
+          setProducts(data.products);
+          setPagination(data.pagination);
         }
       } catch {
         if (!cancelled) {
@@ -74,14 +84,24 @@ function CategoryProducts() {
     return () => {
       cancelled = true;
     };
-  }, [categorySlug, sort]);
+  }, [categorySlug, sort, page]);
+
+  // When the user jumps to another page, bring the grid back into view
+  // (the header is fixed, so scrolling to the top of the page works).
+  useEffect(() => {
+    if (page > 1) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [page]);
 
   return (
     <section className="category-products-section">
       <div className="category-header">
         <h1 className="category-title">{categoryName(categorySlug)}</h1>
         {!loading && !error && (
-          <span className="category-count">{products.length} products</span>
+          <span className="category-count">
+            {pagination ? pagination.total_products : products.length} products
+          </span>
         )}
         <select
           className="category-sort"
@@ -170,6 +190,43 @@ function CategoryProducts() {
             </div>
           ))}
         </div>
+      )}
+
+      {!loading && !error && pagination && pagination.total_pages > 1 && (
+        <nav className="pagination" aria-label="Product pages">
+          <button
+            type="button"
+            className="pagination-btn"
+            disabled={page === 1}
+            onClick={() => setPage(page - 1)}
+          >
+            ← Previous
+          </button>
+
+          {Array.from(
+            { length: pagination.total_pages },
+            (_, index) => index + 1
+          ).map((pageNumber) => (
+            <button
+              key={pageNumber}
+              type="button"
+              className={`pagination-btn ${pageNumber === page ? 'active' : ''}`}
+              aria-current={pageNumber === page ? 'page' : undefined}
+              onClick={() => setPage(pageNumber)}
+            >
+              {pageNumber}
+            </button>
+          ))}
+
+          <button
+            type="button"
+            className="pagination-btn"
+            disabled={page === pagination.total_pages}
+            onClick={() => setPage(page + 1)}
+          >
+            Next →
+          </button>
+        </nav>
       )}
     </section>
   );
