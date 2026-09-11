@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useCart } from '../../context/useCart';
+import WishlistHeart from '../WishlistHeart/WishlistHeart';
 import './ProductDetails.css';
 
 const FALLBACK_IMAGE =
@@ -132,7 +133,10 @@ function ProductDetails() {
 
             <div className="product-details-info">
               {product.brand && <span className="detail-brand">{product.brand}</span>}
-              <h1 className="detail-title">{product.name}</h1>
+              <div className="detail-title-row">
+                <h1 className="detail-title">{product.name}</h1>
+                <WishlistHeart productId={product.id} variant="inline" />
+              </div>
 
               <div className="detail-rating-row">
                 {renderStars(product.rating)}

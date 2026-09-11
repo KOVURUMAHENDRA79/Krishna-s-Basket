@@ -227,6 +227,156 @@
   text-decoration: underline;
 }
 
+.selected-address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.selected-address-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.selected-address-label {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.selected-address-default {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.selected-address-name {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.selected-address-line {
+  color: #64748b;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.change-address-btn {
+  align-self: flex-start;
+  margin-top: 0.9rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.change-address-btn:hover {
+  text-decoration: underline;
+}
+
+.address-picker {
+  margin-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.picker-title {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.address-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.address-option:hover {
+  border-color: var(--primary);
+}
+
+.address-option.selected {
+  border-color: var(--primary);
+  background: #eef2ff;
+}
+
+.address-option input {
+  margin-top: 0.2rem;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+
+.address-option-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.address-option-label {
+  font-weight: 800;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+}
+
+.address-option-default {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4338ca;
+}
+
+.address-option-text {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.use-address-btn {
+  padding: 0.75rem;
+  background: var(--primary-accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.use-address-btn:hover {
+  opacity: 0.9;
+}
+
+.picker-add-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--primary);
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.picker-add-btn:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 800px) {
   .checkout-layout {
     grid-template-columns: 1fr;

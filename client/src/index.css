@@ -5,6 +5,9 @@
   --text-primary: #1a1a24;
   --primary-accent: #6366f1;
   /* Premium Indigo for Brand Color */
+  --primary: #6366f1;
+  --surface: #ffffff;
+  --border: #e2e8f0;
   --header-height: 75px;
 }
 

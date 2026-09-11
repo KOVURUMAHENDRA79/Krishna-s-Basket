@@ -8,15 +8,22 @@ import CategoryProducts from './components/CategoryProducts/CategoryProducts';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import CartPage from './components/CartPage/CartPage';
 import CheckoutPage from './components/CheckoutPage/CheckoutPage';
+import PaymentPage from './components/PaymentPage/PaymentPage';
+import OrdersPage from './components/OrdersPage/OrdersPage';
+import AddressesPage from './components/AddressesPage/AddressesPage';
+import ProfilePage from './components/ProfilePage/ProfilePage';
 import SearchResults from './components/SearchResults/SearchResults';
+import WishlistPage from './components/WishlistPage/WishlistPage';
 import { CartProvider } from './context/CartContext';
 import { AuthProvider } from './context/AuthContext';
+import { WishlistProvider } from './context/WishlistContext';
 
 function App() {
   return (
     <AuthProvider>
       <CartProvider>
-        <BrowserRouter>
+        <WishlistProvider>
+          <BrowserRouter>
         <div className="app-layout">
           <Header />
           
@@ -48,11 +55,27 @@ function App() {
 
               {/* Checkout (Layer 1: UI only) */}
               <Route path="/checkout" element={<CheckoutPage />} />
+
+              {/* Demo Payment (Layer 3) */}
+              <Route path="/payment" element={<PaymentPage />} />
+
+              {/* My Orders */}
+              <Route path="/orders" element={<OrdersPage />} />
+
+                            {/* My Profile */}
+              <Route path="/profile" element={<ProfilePage />} />
+
+              {/* My Addresses */}
+              <Route path="/addresses" element={<AddressesPage />} />
+
+              {/* Wishlist */}
+              <Route path="/wishlist" element={<WishlistPage />} />
             </Routes>
 
           </main>
         </div>
         </BrowserRouter>
+        </WishlistProvider>
       </CartProvider>
     </AuthProvider>
   );

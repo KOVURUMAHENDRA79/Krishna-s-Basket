@@ -1,0 +1,160 @@
+.addresses-page {
+  padding: 1.5rem 2rem 3rem 2rem;
+  background-color: transparent;
+  /* Centered container; the cards inside stay left-aligned */
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.addresses-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
+}
+
+.addresses-note {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.addresses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 640px;
+  margin-bottom: 1.5rem;
+}
+
+.address-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.address-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.address-card-label {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.address-default-badge {
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.address-card-name {
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.2rem;
+}
+
+.address-card-line {
+  color: #64748b;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.address-actions {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  border-top: 1px solid #eef2f7;
+  padding-top: 0.75rem;
+}
+
+.address-action {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.address-action:hover {
+  text-decoration: underline;
+}
+
+.address-action-danger {
+  color: #dc2626;
+}
+
+.address-form-wrap {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 640px;
+  margin-bottom: 1.5rem;
+}
+
+.addresses-add-btn {
+  display: inline-block;
+  padding: 0.8rem 1.75rem;
+  background: transparent;
+  color: var(--primary);
+  border: 1px dashed var(--primary);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.addresses-add-btn:hover {
+  background: #eef2ff;
+}
+
+.addresses-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.addresses-empty-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.addresses-empty-sub {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.addresses-empty-cta {
+  margin-top: 0.75rem;
+  padding: 0.75rem 2rem;
+  background: var(--primary-accent);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.addresses-empty-cta:hover {
+  opacity: 0.9;
+}

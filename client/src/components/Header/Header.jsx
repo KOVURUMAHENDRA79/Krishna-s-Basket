@@ -138,9 +138,30 @@ function Header() {
 
             {/* The Hidden Dropdown Menu */}
             <div className="dropdown-menu">
-              <a href="#profile" className="dropdown-item">My Profile</a>
-              <a href="#orders" className="dropdown-item">Orders</a>
-              <a href="#wishlist" className="dropdown-item">Wishlist</a>
+              <Link
+                to="/profile"
+                className="dropdown-item"
+                onClick={() => setIsAuthMenuOpen(false)}
+              >
+                My Profile
+              </Link>
+              <Link
+                to="/addresses"
+                className="dropdown-item"
+                onClick={() => setIsAuthMenuOpen(false)}
+              >
+                My Addresses
+              </Link>
+              <Link
+                to="/orders"
+                className="dropdown-item"
+                onClick={() => setIsAuthMenuOpen(false)}
+              >
+                Orders
+              </Link>
+              <Link to="/wishlist" className="dropdown-item" onClick={() => setIsAuthMenuOpen(false)}>
+                Wishlist
+              </Link>
               <a href="#help" className="dropdown-item">Help Center</a>
               {currentUser ? (
                 <button className="dropdown-item dropdown-item-button" type="button" onClick={handleSignOut}>

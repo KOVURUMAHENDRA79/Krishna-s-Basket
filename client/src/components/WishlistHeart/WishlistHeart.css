@@ -1,0 +1,37 @@
+.wishlist-heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #64748b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.15s ease;
+  z-index: 2;
+}
+
+.wishlist-heart:hover {
+  color: #dc2626;
+  transform: scale(1.08);
+}
+
+.wishlist-heart--active {
+  color: #dc2626;
+}
+
+/* Overlay variant: sits in the corner of the product image */
+.wishlist-heart--overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Inline variant: sits next to the product title on the details page */
+.wishlist-heart--inline {
+  flex-shrink: 0;
+}
